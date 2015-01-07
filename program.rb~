@@ -1,0 +1,8 @@
+require File.dirname(__FILE__) + '/lib/source_bit.rb'
+require "rubygems"
+require "yaml"
+
+puts "Best banner is \n #{Source_bit::BestAd.new("file_inputs.yml").best}"
+
+
+
